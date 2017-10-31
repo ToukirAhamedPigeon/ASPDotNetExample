@@ -8,7 +8,7 @@
     <link href="Content/Site.css" rel="stylesheet" />
 </head>
 <body>
-    <h1>ViewState Example</h1>
+    <h1>View State Example</h1>
     <hr />
     <br />
     <form id="form1" runat="server">

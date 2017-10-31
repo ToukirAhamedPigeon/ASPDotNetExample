@@ -20,12 +20,12 @@ namespace ASPDotNetProject
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            if (ViewState["Clicks"] != null)
+            if (ViewState["Click"] != null)
             {
-                num = (int)ViewState["Clicks"] + 1;
+                num = (int)ViewState["Click"] + 1;
             }
             TextBoxNumber.Text = num.ToString();
-            ViewState["Clicks"] = num;
+            ViewState["Click"] = num;
         }
     }
 }
